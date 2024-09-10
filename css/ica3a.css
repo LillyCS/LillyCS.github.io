@@ -6,6 +6,10 @@ body {
   .sender-column {
     text-align: right;
   }
+
+  .indented {
+    text-indent: 15px;
+  }
   
   h1 {
     font-size: 1.5em;
