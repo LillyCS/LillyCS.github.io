@@ -1,0 +1,87 @@
+Team Members: Lilly Nguyen, Mia Moreno, Morty Morton V 
+
+find_errors.html (25 total errors) 
+
+1. Line 1: Missing <!DOCTYPE html> 
+
+2. Line 2: Should be <html language=”en”>   <html language="en"> 
+
+3. Line 7: Missing </head> tag to close the opening one 
+
+4. Line 9: Needs </h1> closing tag 
+
+5. Line 11: Needs <p> opening tag 
+
+6. Line 19: Should be <li>Item 6</li> 
+
+7. Line 24: Should be a </ol> closing tag to end the ordered list and match the opening tag 
+
+8. Line 26: Needs </p> closing tag 
+
+9. Line 28: Change file type in relative path to JPG to match “image.jpg”; also needs an alt attribute for accessibility 
+
+10. Line 30: Needs </a> closing tag instead of </img> 
+
+11. Line 39: Change second <td> to </td> closing tag 
+
+12. Line 45: Needs a </table> closing tag 
+
+13. Line 46: Correct source attribute name is “src”, not “source” 
+
+14. Line 46: Change filetype of error.jpeg to JPG 
+
+15. Line 48: Needs paragraph <p></p> tags  
+
+16. Line 48: Format text with strikethrough <s></s> tags with the strikethrough tags nested within the paragraph ones 
+
+17. Line 50: Background color styling needs to be specified with this attribute syntax style="background-color:lightgrey;" 
+
+18. Line 52: Needs a slash / before the > 
+
+19. Line 54: Needs - -> to close the comment 
+
+20. Line 56: Needs an </a> closing tag 
+
+21. Line 58: </em> needs to come before </p> closing tag correct: <p><em>Underlined text</em></p> 
+
+22. Line 58: Change the <em> tags to <u> and </u> respectively to underline the text 
+
+23. Line 61: Use tags <dt> and </dt> to specify a descriptive list title 
+
+24. Line 62: Use tags <dd> and </dd> to specify a descriptive list description 
+
+25. Line 64: Change the h3 at the end of the line to a closing h2 tag </h2> 
+
+ 
+
+find_errors_2.html (15 total errors) 
+
+1. Line 2: <!--Added <html lang=”en”>--> 
+
+2. Line 2: <!--moved html from body to top of file--> 
+
+3. Line 4: <!--/head was missing--> 
+
+4. Line 5: <!--body missing end ">"--> 
+
+5. Line 6: <!--moved h1 out of head into body--> 
+
+6. Line 8: <!--missing /strong end--> 
+
+7. Line 8: <!--missing end /p--> 
+
+8. Line 10: <!--replaced href with src--> 
+
+9. Line 10: <!--missing underscore in filename--> 
+
+10. Line 12: <!--missing beginning h2--> 
+
+11. Line 14: <!--missing beginning p--> 
+
+12. Line 15: <!--/div was missing from file --> 
+
+13. Line 15: <!--wasnt put in correct comment format--> 
+
+14. Line 16: <!--/body was missing from file--> 
+
+15. Line 16: <!--/html missing the letter "l"--> 
