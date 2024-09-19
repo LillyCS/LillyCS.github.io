@@ -4,7 +4,7 @@ find_errors.html (25 total errors)
 
 1. Line 1: Missing <!DOCTYPE html> 
 
-2. Line 2: Should be <html language=”en”>   <html language="en"> 
+2. Line 2: Should be <html language=”en”> 
 
 3. Line 7: Missing </head> tag to close the opening one 
 
@@ -30,13 +30,13 @@ find_errors.html (25 total errors)
 
 14. Line 46: Change filetype of error.jpeg to JPG 
 
-15. Line 48: Needs paragraph <p></p> tags  
+15. Line 46: Missing alt attribute and description
 
-16. Line 48: Format text with strikethrough <s></s> tags with the strikethrough tags nested within the paragraph ones 
+16. Line 48: Needs paragraph <p></p> tags  
 
-17. Line 50: Background color styling needs to be specified with this attribute syntax style="background-color:lightgrey;" 
+17. Line 48: Format text with strikethrough <s></s> tags with the strikethrough tags nested within the paragraph ones 
 
-18. Line 52: Needs a slash / before the > 
+18. Line 50: Background color styling needs to be specified with this attribute syntax style="background-color:lightgrey;" 
 
 19. Line 54: Needs - -> to close the comment 
 
@@ -70,9 +70,9 @@ find_errors_2.html (15 total errors)
 
 7. Line 8: <!--missing end /p--> 
 
-8. Line 10: <!--replaced href with src--> 
+8. Line 10: <!--replaced href with src--> and <!--missing underscore in filename--> 
 
-9. Line 10: <!--missing underscore in filename--> 
+9. Line 10: <!--missing alt attribute and description--> 
 
 10. Line 12: <!--missing beginning h2--> 
 
