@@ -7,11 +7,11 @@ body {
 }
 
 h1 {
-color: hotpink;
-font-size: 2em;
-font-family: Georgia, "Times New Roman", Times, serif;
-/* border-bottom: 1px solid #375e97; */
-border-bottom: dotted purple;
+  color: hotpink;
+  font-size: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* border-bottom: 1px solid #375e97; */
+  border-bottom: dotted purple;
 }
 
 h2 {
