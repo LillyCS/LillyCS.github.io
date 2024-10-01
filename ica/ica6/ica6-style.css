@@ -17,7 +17,6 @@ article {
   height: 297mm;
   margin: 20px auto;
   position: relative;
-  /* background-image: linear-gradient(black, white,black); */
 }
 
 address {
@@ -43,7 +42,7 @@ h1 {
 
 /* Your CSS below here */
 
-/* Background */
+/* Background images */
 
 #top {
   background-position: top center;
@@ -51,31 +50,12 @@ h1 {
   top: 0 */
   width: 100%;
   height: auto;
-  /* top: 1 */
 }
 
 #bottom {
   background-position: bottom center;
+  /* position: relative;
+  bottom: 0 */
   width: 100%;
   height: auto;
-
 }
-
-
-/* .container {
-  position: relative;
-  text-align: center;
-  color: white;
-} */
-
-/* .container{
-  position:relative;
-}
-
-.container h1 {
-  /* left: 0; */
-  /* position:absolute; */
-  /* text-align:center; */
-  /* top: 30px;
-  width: 100% */
-/* } */
