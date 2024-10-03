@@ -1,0 +1,6 @@
+body {
+    background-image: url("/img/nugget_game.avif");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
