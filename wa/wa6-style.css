@@ -4,3 +4,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover; /* Resize the background image to cover the entire container */
 }
+
+.overlay {
+    position: absolute;
+    padding: 10px;
+    color: white;
+}
+.score {
+    bottom: 10px;
+    left: 0;
+}
+.score img {
+    height: 50px;
+    width: auto;
+    margin-left: -15px;
+}
