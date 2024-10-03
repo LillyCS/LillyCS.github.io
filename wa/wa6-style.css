@@ -7,15 +7,42 @@ body {
 
 .overlay {
     position: absolute;
-    padding: 10px;
     color: white;
 }
+
+/* Score styling */
 .score {
     bottom: 10px;
     left: 0;
 }
+
 .score img {
     height: 50px;
     width: auto;
     margin-left: -15px;
+}
+
+/* Logos styling */
+.nba-logo {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    opacity: 0.9;
+}
+
+.nba-logo img {
+    height: 100px;
+    width: auto;
+}
+
+.fubotv-logo {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    opacity: 0.7;
+} 
+
+.fubotv-logo img {
+    height: 50px;
+    width: auto;
 }
