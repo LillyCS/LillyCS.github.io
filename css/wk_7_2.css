@@ -2,24 +2,49 @@
 
 /* ~~ this is where we apply flexbox styling ~~ */
 
-/* #my_flexbox{
+#my_flexbox{
     display:flex;
+    /* flex-direction: column; */
+    /* justify-content: center, flex-start (default), flex-end (right), space-around, space-between */
+    justify-content: space-around; /* direction of content */
+    /* align-items: center, flex-start (default), flex-end (right), stretch, baseline */
+    align-items: center;
+    flex-wrap:wrap;
 }
 
 .info_card{
-    width:20vw;
+    max-width:30vw; /* cards will be _% of view width*/
+    min-width:400px; 
 }
 
+
 #info_1{
-    flex-grow: .4;
-    order:1;
-} */
+    flex-shrink: .4; /* bigger than other cards - need space around to work */
+    order:1; /* all items have default order 0 - 1 pushed to end of list (right) */
+}
 
 
 
 /* ~~ this is where we apply grid styling ~~ */
 
-/* #my_grid{
+#my_grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    width: 100vw;
+    /* justify-content: space-evenly, space-around, space-between, center, start, end; */
+    justify-content: end;
+    /* align-content: center, space-evenly, space-aroundm */
+    /* fr unit - only applies to grid and flex box */
+
+}
+
+/* #unicorns_1{
+    grid-column: 1 / 3;
+    grid-row: span 2;
+
 } */
+
+#unicorns_5{
+    grid-area: 1/2/3/4;
+}
