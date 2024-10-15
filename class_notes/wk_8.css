@@ -1,0 +1,73 @@
+@media screen and (max-width: 800px){
+    body{
+        background-color: aqua;
+    }
+    ul {
+        flex-direction: column;
+    }
+    li{
+        width: 100vw;
+    }
+    li a{
+        transition: color 1s;
+
+    }
+}
+
+body{
+    margin:0;
+}
+
+ul {
+    list-style-type: none; /* gets rid of bullets */
+    display: flex;
+    background-color: black;
+    margin:0;
+    padding: 10px 0px;
+    justify-content: flex-end; /* moves content to the right */
+}
+
+li a{
+    text-decoration: none; /* gets rid of underline */
+    color:white;
+    padding: 10px 30px; /* first value: top/bottom , second value: left/right*/
+    font-family: "Sixtyfour Convergence", sans-serif;
+}
+
+li a:hover{ /* pseudoclass */
+    background-color: darkslategray;
+    color: yellow;
+}
+
+/* when you click on the link */
+li a:active { 
+    background-color: khaki;
+}
+
+/*
+body{
+    margin:0;
+}
+ul {
+    list-style-type: none;
+    margin:0;
+    background-color: black;
+    height: 30px;
+}
+
+li{
+    display: inline;
+    float: right;
+    margin-top: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px; 
+}
+
+li a:hover {
+    background-color: darkgrey;
+}
+*/
