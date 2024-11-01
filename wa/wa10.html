@@ -5,15 +5,43 @@
     <meta name="viewport" content="width=device-width" />
 
     <title>Silly story generator</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
     <style>
       body {
         font-family: helvetica, sans-serif;
-        width: 350px;
+        /* width: 350px; */
+      }
+      
+      h1 {
+        font-family: "Kablammo", serif;
       }
 
+    .center {
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+
+        text-align: center;
+    }
       label {
         font-weight: bold;
+      }
+      .randomize{
+          border: none;
+          color: rgba(231, 116, 15, 0.777);
+          background-color: rgb(245, 243, 243);
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        
       }
 
       div {
@@ -25,31 +53,71 @@
         width: 150px;
       }
 
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
       p {
-        background: #ffc125;
+        background: #eae8e5;
         color: #5e2612;
-        padding: 10px;
+        padding: 40px;
         visibility: hidden;
       }
     </style>
   </head>
 
   <body>
+    <h1>Silly Story Generator</h1>
+
     <div>
-      <label for="customname">Enter custom name:</label>
-      <input id="customname" type="text" placeholder="" />
+        <img id="image" src="../class_notes/images/chick.png">
     </div>
-    <div>
-      <label for="us">US</label
-      ><input id="us" type="radio" name="ukus" value="us" checked />
-      <label for="uk">UK</label
-      ><input id="uk" type="radio" name="ukus" value="uk" />
+
+    <div class="center">
+        <div>
+            <label for="customname">Enter a name:</label>
+            <input id="customname" type="text" placeholder="" />
+        </div>
     </div>
-    <div>
-      <button class="randomize">Generate random story</button>
-    </div>
-    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
-    <p class="story"></p>
+        <!-- <div>
+        <label for="us">US</label
+        ><input id="us" type="radio" name="ukus" value="us" checked />
+        <label for="uk">UK</label
+        ><input id="uk" type="radio" name="ukus" value="uk" />
+        </div> -->
+        <div class="center">
+            <fieldset>
+            <legend>Select your pronouns:</legend>
+        
+            <div>
+              <input type="radio" id="she/her" name="pronoun" value="she" />
+              <label for="she/her">She/her</label>
+            </div>
+          
+            <div>
+              <input type="radio" id="he/him" name="pronoun" value="he" />
+              <label for="he/him">He/him</label>
+            </div>
+          
+            <div>
+              <input type="radio" id="they/them" name="pronoun" value="they" checked/>
+              <label for="they/them">They/them</label>
+            </div>
+        </fieldset>
+        </div>
+
+        <div class="center">
+            <div>
+            <button class="randomize">Generate random story</button>
+            </div>
+        </div>
+        <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+        <p class="story"></p>
     <script src="main.js"></script>
+
   </body>
 </html>

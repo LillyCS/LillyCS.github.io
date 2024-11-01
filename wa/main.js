@@ -2,10 +2,14 @@ const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize'); // button
 const story = document.querySelector('.story'); // to copy story
 
-var storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.";
-var insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
-var insertY = ["the soup kitchen", "Disneyland", "the White House"];
-var insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
+var storyText = "One day, Bob decided to take a trip to :store: to pick up some much needed essentials. As soon as they walked in, they were captivated by a display of :holiday: decorations. They couldn't resist grabbing a :snack: and browsing the :section: section, where they found a :item: on sale. Feeling optimistic, Bob added it to their cart and made their way to checkout. But on the way, they accidentally knocked over the display of :display:, causing everyone to point and laugh at them. They hurried to the register, hoping the cashier wouldn't notice the mess they had left behind."
+;
+var store = ["Target", "Walmart", "Home Depot"];
+var holiday = ["Christmas", "Halloween", "Easter"];
+var snack = ["latte", "Snickers", "hotdog", "bag of chips"];
+var section = ["beauty", "hardware", "cleaning", "food", "toys"];
+var thing = ["lipstick", "pet toy", "phone case", "bread loaf", "broom", "screwdriver"]
+var display = ["soda cans", "candy bars", "hammers", "pillows", "coffee mugs"];
 
 // takes in an array and returns one of the items stored inside the array at random
 function randomValueFromArray(array){
@@ -20,25 +24,34 @@ function result() {
 
     var newStory = storyText;
 
-    var xItem = randomValueFromArray(insertX);
-    var yItem = randomValueFromArray(insertY);
-    var zItem = randomValueFromArray(insertZ);
+    var xItem = randomValueFromArray(store);
+    var yItem = randomValueFromArray(holiday);
+    var zItem = randomValueFromArray(snack);
+    var aItem = randomValueFromArray(section);
+    var bItem = randomValueFromArray(display);
+    var cItem = randomValueFromArray(thing);
 
-    newStory = newStory.replace(':insertx:', xItem).replace(':inserty:', yItem).replace(':insertz:', zItem).replace(':insertx:', xItem);
+    newStory = newStory.replaceAll(':store:', xItem).replaceAll(':holiday:', yItem).replaceAll(':snack:', zItem).replaceAll(':section:', aItem).replaceAll(':display:', bItem).replaceAll(':item:', cItem);
 
     if(customName.value !== '') {
 
         const name = customName.value;
-        newStory = newStory.replace('Bob', name)
+        newStory = newStory.replaceAll('Bob', name)
 
     }
 
-    if(document.getElementById("uk").checked) {
-        const weight = Math.round(300*0.0714286) + ' stone';
-        const temperature =  Math.round((94-32) / (9/5)) + ' centigrade';
+    if(document.getElementById("she/her").checked) {
+        const upper_pronoun = "She";
+        const lower_pronoun = "she";
+        newStory = newStory.replaceAll('They',upper_pronoun);
+        newStory = newStory.replaceAll('they',lower_pronoun);
+    }
 
-        // console.log(weight);
-        newStory = newStory.replace('94 fahrenheit',temperature).replace('300 pounds', weight);
+    if(document.getElementById("he/him").checked) {
+        const upper_pronoun = "He";
+        const lower_pronoun = "he";
+        newStory = newStory.replaceAll('They',upper_pronoun);
+        newStory = newStory.replaceAll('they',lower_pronoun);
     }
 
     story.textContent = newStory;
