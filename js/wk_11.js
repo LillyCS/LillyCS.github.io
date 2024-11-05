@@ -34,3 +34,36 @@ function calculateDogAge(age,id_){
 calculateDogAge(1,"dog1");
 calculateDogAge(2,"dog2");
 calculateDogAge(3,"dog3");
+
+
+function reverse(n,id_){
+    /*
+       Parameters: a number. 
+       Return: reversed number
+        Example x = 32243;
+        Expected Output : 34223
+        Call the function twice with different sets of values.
+        Write these outputs to the DOM (your page)
+    */
+   /* referenced https://www.freecodecamp.org/news/js-basics-how-to-reverse-a-number-9aefc20afa8d/ */
+    output = "Reverse: "+ parseFloat(n.toString().split('').reverse().join(''));    
+
+    document.getElementById(id_).innerHTML = output;
+}
+
+reverse(1234567890, "reverse1");
+
+reverse(22224444, "reverse2");
+
+reverse(987654321, "reverse3");
+
+function sort_(word, id_){
+    /* referenced https://www.geeksforgeeks.org/sort-a-string-alphabetically-using-a-function-in-javascript/ */
+    output = "Sorted: "+word.split("").sort().join("");    
+
+    document.getElementById(id_).innerHTML = output;
+
+}
+
+sort_('webmaster', "sort1");
+sort_('black', "sort2");
