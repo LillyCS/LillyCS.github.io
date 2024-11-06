@@ -22,6 +22,14 @@ for (const image of images) {
     newImage.setAttribute('src', image);
     newImage.setAttribute('alt', altText[image]);
     thumbBar.appendChild(newImage);
+    /* element.addEventListener(event, function, useCapture); */
+
+    /* referenced https://stackoverflow.com/questions/38060349/replace-image-by-javascript */
+    newImage.addEventListener('click', () => {
+        var imgReplace = document.getElementsByClassName("displayed-img")[0];
+        imgReplace.src = image;
+        imgReplace.alt = altText[image];
+    });
 }
 
 
