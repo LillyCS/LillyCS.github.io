@@ -15,6 +15,17 @@ body {
   height: 480px;
 }
 
+.displayed-img {
+  position: relative;
+  display: block;
+  /* center main image */
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  /* resize main image */
+  max-width: 56%;
+}
+
 .overlay {
   position: absolute;
   top: 0;
