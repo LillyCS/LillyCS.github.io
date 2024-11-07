@@ -26,11 +26,24 @@ for (const image of images) {
 
     /* referenced https://stackoverflow.com/questions/38060349/replace-image-by-javascript */
     newImage.addEventListener('click', () => {
-        var imgReplace = document.getElementsByClassName("displayed-img")[0];
+        var imgReplace = displayedImage;
         imgReplace.src = image;
         imgReplace.alt = altText[image];
     });
-}
+};
 
 
 /* Wiring up the Darken/Lighten button */
+btn.addEventListener("click", function (e) {
+    /* referenced https://www.geeksforgeeks.org/how-to-darken-an-image-using-css/ */
+    const text = btn.textContent;
+    if (text === "Darken"){
+        btn.textContent = "Lighten"; 
+        displayedImage.style.filter = "brightness(50%)";
+    }
+    else {
+         btn.textContent = "Darken"; 
+         displayedImage.style.filter = "brightness(100%)";
+    }
+  
+});
