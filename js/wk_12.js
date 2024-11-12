@@ -1,32 +1,32 @@
-// let ourObject = {
-//     "name": "lilly",
-//     "profession": "student",
-//     "age": 21,
-//     "family": [{"name":"kim", "relation":"mom","age":52},{"name":"kiet", "relation":"data","age":55},{"name":"khai", "relation":"brother","age":27}]
-// }
-
-// console.log(ourObject);
 const btn = document.querySelector('button');
 
-let getJoke = fetch(
-    "https://api.chucknorris.io/jokes/random");
-        
-// getJoke is the promise to resolve
-// it by using.then() method
-getJoke.then((res) =>{
-    if(!res.ok) throw new Error(res.status);
-    else return res.json();
-})
-.then(d => {
-        document.getElementById("joke").innerHTML = d.value;
-        console.log("Button was clicked!");
-        
-})
-.catch(error => {
-    // Handle errors
-    console.log(res);
-    console.error('There was a problem with the fetch operation:', error);
-    alert("There was a problem with the fetch operation");
-});
+const getJoke = async () => {
+    console.log("button was clicked");
+    // check status of response
+    try {
+        const res = await fetch('https://api.chucknorris.io/jokes/random');
+
+        // check the status of the response
+        if(!res.ok){
+            console.log(res);
+            throw new Error(`Response status: ${res.status}`); // error.message
+        }
+        else {
+            // get json data
+            const json = await res.json(); // get the json object
+            console.log(json.value);
+            displayRes(json);
+        }
+    } catch (error){
+        console.error(error.message);
+        alert("There was a problem with the fetch operation.");
+    }
+}
+
+const displayRes = j => {
+    document.getElementById("joke").innerHTML = j.value;
+}
+
+getJoke();
 
 btn.addEventListener("click", getJoke);
