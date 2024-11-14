@@ -29,7 +29,11 @@ document.getElementById("button1").addEventListener("click", async function(e){
 
             // gather comic image
             const comic_img = json.img;
-            document.getElementById("image").src = comic_img;
+            const comic_alt = json.alt;
+            const image = document.getElementById("image");
+            image.src = comic_img;
+            image.alt = comic_alt;
+            
 
             // gather comic title
             const title = json.title;
