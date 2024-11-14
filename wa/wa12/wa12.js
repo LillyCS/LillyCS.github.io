@@ -9,8 +9,6 @@ function getRandomInt(min, max) {
 }
 
 document.getElementById("button1").addEventListener("click", async function(e){
-    console.log("button was clicked");
-
     try {
         // generate a comic id
         let random_num = getRandomInt(1,3001);
@@ -34,7 +32,6 @@ document.getElementById("button1").addEventListener("click", async function(e){
             image.src = comic_img;
             image.alt = comic_alt;
             
-
             // gather comic title
             const title = json.title;
             document.getElementById("title").innerHTML = title;
