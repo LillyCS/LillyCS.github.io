@@ -4,6 +4,13 @@
     margin: 10vh 20vw;
 }
 
+h2 {
+    font-size: 2rem; /* Adjust this value to increase or decrease the size */
+}
+
+h3 {
+    font-size: 1.5rem; /* Adjust this value to increase or decrease the size */
+}
 
 .abstract {
     font-family: "Montserrat", sans-serif;
@@ -53,7 +60,7 @@
     display:flex;
     flex-direction:row;
     border: 1px solid black;
-    margin-top:10px;
+    margin-top: 10px;
     padding: 15px 20px;
 
     align-items: center;
@@ -66,10 +73,24 @@
 }
 
 #buttons{
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
 #buttons button{
+    /* referenced https://www.sliderrevolution.com/resources/css-button-hover-effects/ for clear transparent button effect */
     margin:10px;
+    padding: 10px 15px;
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer; /* cursor turns into a pointer when hovered over */
+}
+
+#buttons button:hover {
+    background-color: #45a049;
 }
