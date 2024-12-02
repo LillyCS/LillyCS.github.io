@@ -19,7 +19,7 @@ function parseData(data){
         <p class="abstract">${data.projects[i].abstract}</p></div></div></a>`;
     }
 }
-{/* <div class="projimg"><img src="../../class_notes/images/unicorns/unicorn (${i +1}).png"></div> */}
+
 for(b of document.querySelectorAll("#buttons button")){
     b.addEventListener("click", e=>{
         console.log(e.target.value);

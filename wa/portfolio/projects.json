@@ -44,7 +44,7 @@
 			"collaborators": ["Owen Flack"],
 			"abstract": "A partner and I collaborated to create a text-based game written in C++, featuring interactive components based on the Carmen Sandiego series.",
 			"description": ["I designed a text-based game in C++ based on the Carmen Sandiego series, featuring interactive villains, NPCs, and misfortunes. Using object-oriented principles, I created modular game classes for key components such as characters, locations, events, and game logic. I coordinated weekly meetings with a partner and teaching assistants to track progress, refine features, and troubleshoot challenges, ensuring efficient development and effective collaboration."],
-			"mainimg": "../../img/c++-image.jpeg",
+			"mainimg": "../../img/carmen-sandiego.png",
 			"video": ["False"],
 			"images": []
 		}
