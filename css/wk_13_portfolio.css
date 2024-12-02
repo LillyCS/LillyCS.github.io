@@ -4,13 +4,47 @@
     margin: 10vh 20vw;
 }
 
+
+.abstract {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.634);
+}
+
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.description {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.subtitle {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+
 #projects a{
     text-decoration:none;
     color:black;
 }
 
 .project:hover{
-    background-color:rgb(180, 255, 165);
+    background-color: cornsilk;
 }
 
 .project{
