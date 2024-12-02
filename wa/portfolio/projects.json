@@ -8,7 +8,7 @@
 			"abstract": "A website to assist CU Boulder students plan their gym visits by providing real-time insights on occupancy levels.",
 			"description": ["Introducing Buff Traffic, an app designed to help you track real-time and historic traffic trends at The Rec, so you can maximize your workout time and avoid waiting on the sidelines. Developed during a semester-long project cycle, Buff Traffic leverages a clean and user-friendly front-end built with Bootstrap, and features hand-drawn logos and visual assets to create a unique, personalized look.",
 			"The app uses Node.js to make API calls to CU Boulder’s regularly updated database, displaying live and historical headcount data at The Rec to give users insight into the best times to visit. Additionally, we host our own database using PostgreSQL to ensure efficient storage and retrieval of data."],
-			"mainimg": "",
+			"mainimg": "../../img/BT-Icon-v2.png",
 			"video": ["False"],
 			"images": []
 			
@@ -20,7 +20,7 @@
 			"abstract": "POCit is a website that was created in order to support small businesses with a special focus on those that are minority owned. It includes features that allow the consumer to learn the stories of these businesses and the perspectives of minority entrepreneurs and foster empathy.",
 			"description": ["POCit is our website that was created in order to support small businesses with a special focus on those that are minority owned. In our increasingly digital world, it’s often easier to buy online from larger corporations, which often-times prevents small businesses from establishing a footing in online spaces."
 			, "Our mission is to establish a platform for these businesses to be discovered, as well as provide a space for consumers to connect with them. It includes features that allow the consumer to learn the stories of these businesses and the perspectives of minority entrepreneurs and foster empathy. This can help the consumer to feel more connected and fulfilled with where they spend their income. We primarily focused on UX with a sprinkle of UI. We used Figma for modeling the site, and created a basic prototype using typescript."],
-			"mainimg": "",
+			"mainimg": "../../img/POCit-logo.png",
 			"video": ["False"],
 			"images": [""]
 
@@ -32,7 +32,7 @@
 			"collaborators": ["Matthew Nelson", "Emma Mostello", "Peter Burke"],
 			"abstract": "My team developed a product designed to help users connect with their emotions and mental states through a personalized online journal. The platform allows users to record thoughts via audio or written notes and offers tailored activity and game recommendations to enhance the experience of solitude and self-reflection.",
 			"description": ["My group and I created a high fidelity prototype of a mobile application that would connect the user to their personal emotions and states-of-mind through the use of some variation of a personal online journal. Using Figma and design theory, our prototype includes features that allow the recording of thoughts through audio and typed notes and additional recommendations of activities and games that could supplement the experience of being alone."],
-			"mainimg": "",
+			"mainimg": "../../img/zen-space-logo.png",
 			"video": ["False"],
 			"images": []
 
@@ -44,7 +44,7 @@
 			"collaborators": ["Owen Flack"],
 			"abstract": "A partner and I collaborated to create a text-based game written in C++, featuring interactive components based on the Carmen Sandiego series.",
 			"description": ["I designed a text-based game in C++ based on the Carmen Sandiego series, featuring interactive villains, NPCs, and misfortunes. Using object-oriented principles, I created modular game classes for key components such as characters, locations, events, and game logic. I coordinated weekly meetings with a partner and teaching assistants to track progress, refine features, and troubleshoot challenges, ensuring efficient development and effective collaboration."],
-			"mainimg": "",
+			"mainimg": "../../img/c++-image.jpeg",
 			"video": ["False"],
 			"images": []
 		}

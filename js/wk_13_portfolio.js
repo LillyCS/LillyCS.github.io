@@ -14,12 +14,12 @@ function parseData(data){
     for(let i=0; i<data.projects.length; i++){
     document.getElementById("projects").innerHTML += `<a href="../../wa/portfolio/${data.projects[i].subdomain}.html">
     <div class="row project" id="${data.projects[i].subdomain}">
-        <div class="projimg"><img src="../../class_notes/images/unicorns/unicorn (${i +1}).png"></div>
+        <div class="projimg"><img src=${data.projects[i].mainimg}></div>
         <div class="description"><h2>${data.projects[i].name}</h2><p class="subtitle">${data.projects[i].subtitle}</p>
         <p class="abstract">${data.projects[i].abstract}</p></div></div></a>`;
     }
 }
-
+{/* <div class="projimg"><img src="../../class_notes/images/unicorns/unicorn (${i +1}).png"></div> */}
 for(b of document.querySelectorAll("#buttons button")){
     b.addEventListener("click", e=>{
         console.log(e.target.value);
