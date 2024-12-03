@@ -1,4 +1,5 @@
 let proj;
+// fetch data from the projects json file
 fetch('../portfolio/projects.json')
     .then(response =>{
         return response.json();
@@ -11,6 +12,7 @@ fetch('../portfolio/projects.json')
         console.log(`error ${err}`);
     })
 
+// function to populate project cards onto the webpage
 function parseData(data){
     for(let i=0; i<data.projects.length; i++){
     document.getElementById("projects").innerHTML += `<a href="../../wa/portfolio/${data.projects[i].subdomain}.html">
@@ -21,22 +23,17 @@ function parseData(data){
     }
 }
 
-// for(b of document.querySelectorAll("#buttons button")){
-//     b.addEventListener("click", e=>{
-//         console.log(e.target.value);
-//         sortProjects(e.target.value);
-//     })
-// }
-
+// function to set up event listeners to all the buttons
 function setupButtonListeners() {
-    for (let b of document.querySelectorAll("#buttons button")) {
+    for (b of document.querySelectorAll("#buttons button")) {
         b.addEventListener("click", e => {
-            console.log(e.target.value); // Log the button's value for debugging
-            sortProjects(e.target.value); // Call sortProjects with the button's value
+            console.log(e.target.value);
+            sortProjects(e.target.value);
         });
     }
 }
 
+// function to sort the projects based on the button click
 function sortProjects(button){
     if(button == "clear"){
         for(let i=0; i<proj.projects.length; i++){
