@@ -1,18 +1,45 @@
 #projects{
     display: flex;
     flex-direction:column;
-    margin: 10vh 20vw;
+    margin: 0vh 20vw;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0vh 20vw;
+    gap: 20px;
+}
+
+.headshot img {
+    border-radius: 50%; /* circle-crop headshot */
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 2rem; /* Adjust this value to increase or decrease the size */
+    font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.5rem; /* Adjust this value to increase or decrease the size */
+    font-size: 1.5rem;
 }
 
-.abstract {
+.abstract, .about-me p{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -26,7 +53,7 @@ h3 {
     font-style: normal;
 }
   
-.description {
+.description{
     font-family: "PT Serif", serif;
     font-weight: 700;
     font-style: normal;
@@ -40,16 +67,21 @@ h3 {
     font-style: italic;
 }
 
-.pt-serif-bold-italic {
+.pt-serif-bold-italic, .pronouns{
     font-family: "PT Serif", serif;
     font-weight: 700;
     font-style: italic;
+    font-size: 1.5rem;
 }
   
-
 #projects a{
     text-decoration:none;
     color:black;
+}
+
+.about-me a {
+    text-decoration:none;
+    color:blue;
 }
 
 .project:hover{
