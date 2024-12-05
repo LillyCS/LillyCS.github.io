@@ -1,8 +1,39 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(243, 203, 209);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a{
+    font-size: 1.1rem;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
 .center {
     display: flex;
     flex-direction:column;
     margin: 0vh 20vw;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 /* back button styling reference: https://www.w3schools.com/howto/howto_css_next_prev.asp */
@@ -13,7 +44,7 @@ a {
   
 a:hover {
     font-weight: bold;
-    text-decoration: underline overline;
+    text-decoration: underline;
 }
   
 
