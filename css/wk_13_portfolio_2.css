@@ -43,8 +43,16 @@ h1 {
     margin-right: auto;
     height: auto;
     /* resize main image */
-    max-width: 70%;
+    max-width: 100%;
 }
+
+.thumb-bar img {
+    display: block;
+    width: 20%;
+    height: 90px;
+    float: left;
+    cursor: pointer;
+  }
 
 .collabs {
     font-family: "PT Serif", serif;

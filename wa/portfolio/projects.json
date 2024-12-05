@@ -11,7 +11,7 @@
 			"mainimg": "../../img/BT-Icon-v2.png",
 			"displayimg": "../../img/buff-traffic-solution.png",
 			"video": ["False"],
-			"images": ["../../img/buff-traffic-solution.png","../../img/buff-traffic-rec-app.png","../../img/buff-traffic-home.png","../../img/buff-traffic-login.png","../../img/buff-traffic-architecture.png"]
+			"images": ["../../img/buff-traffic-rec-app.png","../../img/buff-traffic-solution.png","../../img/buff-traffic-home.png","../../img/buff-traffic-login.png","../../img/buff-traffic-architecture.png"]
 			
 	},{		"name": "POCit",
 			"subdomain": "pocit",
