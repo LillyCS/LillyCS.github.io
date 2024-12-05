@@ -1,0 +1,23 @@
+.center {
+    display: flex;
+    flex-direction:column;
+    margin: 0vh 20vw;
+    margin-top: 60px;
+}
+
+/* back button styling reference: https://www.w3schools.com/howto/howto_css_next_prev.asp */
+a {
+    text-decoration: none;
+    color: black;
+}
+  
+a:hover {
+    font-weight: bold;
+    text-decoration: underline overline;
+}
+  
+
+h1 {
+    font-size: 3rem;
+}
+

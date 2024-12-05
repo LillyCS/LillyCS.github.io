@@ -9,8 +9,9 @@
 			"description": ["Introducing Buff Traffic, an app designed to help you track real-time and historic traffic trends at The Rec, so you can maximize your workout time and avoid waiting on the sidelines. Developed during a semester-long project cycle, Buff Traffic leverages a clean and user-friendly front-end built with Bootstrap, and features hand-drawn logos and visual assets to create a unique, personalized look.",
 			"The app uses Node.js to make API calls to CU Boulder’s regularly updated database, displaying live and historical headcount data at The Rec to give users insight into the best times to visit. Additionally, we host our own database using PostgreSQL to ensure efficient storage and retrieval of data."],
 			"mainimg": "../../img/BT-Icon-v2.png",
+			"displayimg": "../../img/buff-traffic-solution.png",
 			"video": ["False"],
-			"images": []
+			"images": ["../../img/buff-traffic-solution.png","../../img/buff-traffic-rec-app.png","../../img/buff-traffic-home.png","../../img/buff-traffic-login.png","../../img/buff-traffic-architecture.png"]
 			
 	},{		"name": "POCit",
 			"subdomain": "pocit",
