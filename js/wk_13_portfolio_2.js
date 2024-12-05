@@ -40,6 +40,7 @@ function buildPage(project){
     }else{
         document.getElementById("collabs").innerHTML += '<h3 class="collabs">Collaborators: &nbsp;</h3>'
     }
+
     /* Looping through collaborators */
     for(i=0;i<(project.collaborators.length);i++){
         if(i==(project.collaborators.length-1)){
@@ -52,22 +53,23 @@ function buildPage(project){
 
     // Add image carousel
     images = `${project.images}`;
-    document.querySelector(".full-img").innerHTML += `<img class="displayed-img" src=${project.displayimg}></img>`;
+    document.querySelector(".full-img").innerHTML += `<img class="displayed-img" src=${project.displayimg} alt=${project.alts[0]}></img>`;
     const displayedImage = document.querySelector('.displayed-img');
     const thumbBar = document.querySelector('.thumb-bar');
 
     /* Looping through images */
     for (let i=0; i<(project.images.length); i++){  
         const image = project.images[i];
+        const alt_text = project.alts[i];
         const newImage = document.createElement('img');
         newImage.setAttribute('src', image);
-        // newImage.setAttribute('alt', altText[image]);
+        newImage.setAttribute('alt', alt_text);
         thumbBar.appendChild(newImage);
         
         /* referenced https://stackoverflow.com/questions/38060349/replace-image-by-javascript */
         newImage.addEventListener('click', () => {
             displayedImage.src = image;
-            // imgReplace.alt = altText[image];
+            displayedImage.alt = alt_text;
         });
     };
 }

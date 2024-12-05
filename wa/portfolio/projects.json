@@ -9,9 +9,10 @@
 			"description": ["Introducing Buff Traffic, an app designed to help you track real-time and historic traffic trends at The Rec, so you can maximize your workout time and avoid waiting on the sidelines. Developed during a semester-long project cycle, Buff Traffic leverages a clean and user-friendly front-end built with Bootstrap, and features hand-drawn logos and visual assets to create a unique, personalized look.",
 			"The app uses Node.js to make API calls to CU Boulder’s regularly updated database, displaying live and historical headcount data at The Rec to give users insight into the best times to visit. Additionally, we host our own database using PostgreSQL to ensure efficient storage and retrieval of data."],
 			"mainimg": "../../img/BT-Icon-v2.png",
-			"displayimg": "../../img/buff-traffic-solution.png",
+			"displayimg": "../../img/buff-traffic-rec-app.png",
 			"video": ["False"],
-			"images": ["../../img/buff-traffic-rec-app.png","../../img/buff-traffic-solution.png","../../img/buff-traffic-home.png","../../img/buff-traffic-login.png","../../img/buff-traffic-architecture.png"]
+			"images": ["../../img/buff-traffic-rec-app.png","../../img/buff-traffic-solution.png","../../img/buff-traffic-home.png","../../img/buff-traffic-login.png","../../img/buff-traffic-architecture.png"],
+			"alts":["screenshot of current rec center app", "slide introducing Buff Traffic idea", "homepage of Buff Traffic", "login page of Buff Traffic", "architecture diagram"]
 			
 	},{		"name": "POCit",
 			"subdomain": "pocit",
@@ -24,7 +25,8 @@
 			"mainimg": "../../img/POCit-logo.png",
 			"displayimg": "../../img/POCit-1.jpg",
 			"video": ["False"],
-			"images": ["../../img/POCit-1.jpg","../../img/POCit-2.jpg","../../img/POCit-3.jpg","../../img/POCit-4.jpg", "../../img/POCit-5.jpg"] 
+			"images": ["../../img/POCit-1.jpg","../../img/POCit-2.jpg","../../img/POCit-3.jpg","../../img/POCit-4.jpg", "../../img/POCit-5.jpg"],
+			"alts":["homepage of POCit site", "example product page of hats", "traditional clothing page", "featured businesses", "testimonials of small business owners"]
 
 	},{
 			"name": "Zen Space",
@@ -37,7 +39,8 @@
 			"mainimg": "../../img/zen-space-logo.png",
 			"displayimg": "../../img/zen-space-1.png",
 			"video": ["False"],
-			"images": ["../../img/zen-space-1.png","../../img/zen-space-2.png","../../img/zen-space-3.png","../../img/zen-space-4.png","../../img/zen-space-5.png"]
+			"images": ["../../img/zen-space-1.png","../../img/zen-space-2.png","../../img/zen-space-3.png","../../img/zen-space-4.png","../../img/zen-space-5.png"],
+			"alts":["start page of zen space app on Iphone 14", "grid of emojis with different facial expressions", "sample journal", "microphone for recording", "lofi girl on a button"]
 
 		}
 		]
