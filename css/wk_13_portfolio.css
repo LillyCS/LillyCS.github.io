@@ -158,3 +158,22 @@ h3 {
 #buttons button:hover {
     background-color: #45a049;
 }
+
+.footer {
+    /* referenced CSS from https://www.shecodes.io/athena/2240-how-to-create-a-footer-with-social-media-newsletter-and-contact#google_vignette */
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.footer .social a{
+    font-size: 40px; /* increase the size of the social icons */
+    color: darkgrey;
+    width: 50px;
+    height: 50px;
+
+    margin: 0px 10px;
+}
