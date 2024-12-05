@@ -21,3 +21,33 @@ h1 {
     font-size: 3rem;
 }
 
+.collabs{
+    display:inline-block;
+    font-size:1.25rem;
+    color: slategrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
+}
+
+.full-img {
+    position: relative;
+    display: block;
+    
+}
+  
+.displayed-img {
+    position: relative;
+    display: block;
+    /* center main image */
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    /* resize main image */
+    max-width: 70%;
+}
+
+.collabs {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
