@@ -22,8 +22,9 @@
 			"description": ["POCit is our website that was created in order to support small businesses with a special focus on those that are minority owned. In our increasingly digital world, it’s often easier to buy online from larger corporations, which often-times prevents small businesses from establishing a footing in online spaces."
 			, "Our mission is to establish a platform for these businesses to be discovered, as well as provide a space for consumers to connect with them. It includes features that allow the consumer to learn the stories of these businesses and the perspectives of minority entrepreneurs and foster empathy. This can help the consumer to feel more connected and fulfilled with where they spend their income. We primarily focused on UX with a sprinkle of UI. We used Figma for modeling the site, and created a basic prototype using typescript."],
 			"mainimg": "../../img/POCit-logo.png",
+			"displayimg": "../../img/POCit-1.jpg",
 			"video": ["False"],
-			"images": [""]
+			"images": ["../../img/POCit-1.jpg","../../img/POCit-2.jpg","../../img/POCit-3.jpg","../../img/POCit-4.jpg", "../../img/POCit-5.jpg"] 
 
 	},{
 			"name": "Zen Space",
