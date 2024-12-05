@@ -34,8 +34,9 @@
 			"abstract": "My team developed a product designed to help users connect with their emotions and mental states through a personalized online journal. The platform allows users to record thoughts via audio or written notes and offers tailored activity and game recommendations to enhance the experience of solitude and self-reflection.",
 			"description": ["My group and I created a high fidelity prototype of a mobile application that would connect the user to their personal emotions and states-of-mind through the use of some variation of a personal online journal. Using Figma and design theory, our prototype includes features that allow the recording of thoughts through audio and typed notes and additional recommendations of activities and games that could supplement the experience of being alone."],
 			"mainimg": "../../img/zen-space-logo.png",
+			"displayimg": "../../img/zen-space-1.png",
 			"video": ["False"],
-			"images": []
+			"images": ["../../img/zen-space-1.png","../../img/zen-space-2.png","../../img/zen-space-3.png","../../img/zen-space-4.png","../../img/zen-space-5.png"]
 
 		}
 		]

@@ -63,17 +63,17 @@ h1 {
 .full-img {
     position: relative;
     display: block;
-    
+    margin-bottom: 20px;
 }
   
 .displayed-img {
     position: relative;
     display: block;
-    /* center main image */
+
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    /* resize main image */
+  
     max-width: 100%;
 }
 
@@ -83,10 +83,24 @@ h1 {
     height: 90px;
     float: left;
     cursor: pointer;
-  }
+}
+
+
 
 .collabs {
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.description{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.634);
+}
+
+.description p {
+    font-size: 2rem;
 }

@@ -27,6 +27,11 @@ function findProjectInJSON(projects){
 function buildPage(project){
     console.log(project);
     document.getElementById("project").innerHTML += `<h1>${project.name}</h1>`;
+    document.getElementById("desc-section").innerHTML += "<div id='description'></div>";
+
+    for(i=0;i<project.description.length;i++){
+        document.getElementById("description").innerHTML += '<p class="description">' + project.description[i] + '</p>';
+    }
 
     // Add collaborators
     document.getElementById("project").innerHTML += '<div id="collabs"></div>';
