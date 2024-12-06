@@ -1,3 +1,4 @@
+/* header styling */
 .header{
     position: absolute;
     top: 0;
@@ -11,9 +12,10 @@
 
 }
 
+/* navbar styling */
 .navbar {
     display: flex;
-    gap: 20px;
+    gap: 20px; /* space between the navbar items */
 }
 
 .navbar a{
@@ -59,6 +61,7 @@
     object-fit: cover;
 }
 
+/* font-sizes for each h tag used */
 h1 {
     font-size: 2.5rem;
 }
@@ -71,6 +74,7 @@ h3 {
     font-size: 1.5rem;
 }
 
+/* font type for each section */
 .abstract, .about-me p{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -120,6 +124,7 @@ h3 {
     background-color: cornsilk;
 }
 
+/* project card styling */
 .project{
     display:flex;
     flex-direction:row;
@@ -141,6 +146,7 @@ h3 {
     justify-content: center;
 }
 
+/* project filter buttons styling */
 #buttons button{
     /* referenced https://www.sliderrevolution.com/resources/css-button-hover-effects/ for clear transparent button effect */
     margin:10px;
@@ -159,6 +165,7 @@ h3 {
     background-color: #45a049;
 }
 
+/* footer styling */
 .footer {
     /* referenced CSS from https://www.shecodes.io/athena/2240-how-to-create-a-footer-with-social-media-newsletter-and-contact#google_vignette */
     position: relative; 
@@ -169,6 +176,7 @@ h3 {
     padding-bottom: 30px;
 }
 
+/* social icons */
 .footer .social a{
     font-size: 40px; /* increase the size of the social icons */
     color: darkgrey;

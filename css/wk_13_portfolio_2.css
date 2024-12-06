@@ -1,3 +1,4 @@
+/* header styling */
 .header{
     position: absolute;
     top: 0;
@@ -11,9 +12,10 @@
 
 }
 
+/* navbar styling */
 .navbar {
     display: flex;
-    gap: 20px;
+    gap: 20px; /* space between the navbar items */
 }
 
 .navbar a{
@@ -29,6 +31,7 @@
     text-decoration-thickness: 2px;
 }
 
+/* container that centers the entire page contents */
 .center {
     display: flex;
     flex-direction:column;
@@ -47,6 +50,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* font-sizes for each h tag used */
 h1 {
     font-size: 3rem;
 }
@@ -62,7 +66,7 @@ h1 {
 .full-img {
     position: relative;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* add space between the image and the thumbnails */
 }
   
 .displayed-img {
@@ -78,7 +82,7 @@ h1 {
 
 .thumb-bar img {
     display: block;
-    width: 20%;
+    width: 20%; /* each of the 5 images will take up 20% of the width */
     height: 90px;
     float: left;
     cursor: pointer;
@@ -102,6 +106,7 @@ h1 {
     font-size: 2rem;
 }
 
+/* footer styling */
 .footer {
     /* referenced CSS from https://www.shecodes.io/athena/2240-how-to-create-a-footer-with-social-media-newsletter-and-contact#google_vignette */
     position: relative; 
@@ -112,6 +117,7 @@ h1 {
     padding-bottom: 30px;
 }
 
+/* social icons */
 .footer .social a{
     font-size: 40px; /* increase the size of the social icons */
     color: darkgrey;
