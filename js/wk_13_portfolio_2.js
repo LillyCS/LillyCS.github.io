@@ -67,9 +67,11 @@ function buildPage(project){
     for (let i=0; i<(project.images.length); i++){  
         const image = project.images[i];
         const alt_text = project.alts[i];
+        // create a new image element
         const newImage = document.createElement('img');
         newImage.setAttribute('src', image);
         newImage.setAttribute('alt', alt_text);
+        // add to the thumbnail bar
         thumbBar.appendChild(newImage);
         
         /* referenced https://stackoverflow.com/questions/38060349/replace-image-by-javascript */

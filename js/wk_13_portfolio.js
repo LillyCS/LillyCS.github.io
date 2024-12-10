@@ -9,6 +9,7 @@ fetch('../portfolio/projects.json')
         parseData(projects);
         setupButtonListeners();
     }).catch(err =>{
+        // error handling
         console.log(`error ${err}`);
     })
 
@@ -27,8 +28,10 @@ function parseData(data){
 
 // function to set up event listeners to all the buttons
 function setupButtonListeners() {
+    // loop through all the buttons
     for (b of document.querySelectorAll("#buttons button")) {
         b.addEventListener("click", e => {
+            // value is the name of the sorting category
             console.log(e.target.value);
             sortProjects(e.target.value);
         });
